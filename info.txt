@@ -116,6 +116,15 @@ https://medium.com/@harichselvamc/getting-started-with-docker-building-and-runni
 
 https://www.w3schools.com/python/ref_requests_get.asp
 
+https://www.sqlitetutorial.net/sqlite-python/creating-database/
+https://www.geeksforgeeks.org/python/python-sqlite-creating-a-new-database/
+https://medium.com/@u.victoramanze345/create-access-sqlite-database-using-python-c9822d30beaf
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+https://www.w3schools.com/python/python_mongodb_create_db.asp
+https://www.geeksforgeeks.org/python/create-a-database-in-mongodb-using-python/
+https://www.tutorialspoint.com/python_data_access/python_mongodb_create_database.htm
+https://www.mongodb.com/resources/languages/python
+
 
 https://www.digitalocean.com/community/tutorials/python-http-client-request-get-post
 https://medium.com/@stephen.biston/write-an-http-server-from-the-ground-up-in-9-minutes-with-python-1fdb9800a26a
@@ -137,6 +146,7 @@ pip2 install pymysql
 pip3 install pymysql
 python2
 python3
+sudo apt-get install -y mongodb-org
 sudo apt install python-pip
 pip install pytest
 pip install requests
