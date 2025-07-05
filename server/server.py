@@ -8,6 +8,8 @@ import re
 #import pymysql
 import json
 import logging
+import sqlite3
+#import pymongo
 
 def get_server_address():
   return '127.0.0.1'
@@ -69,16 +71,26 @@ def jsons_db():
     outfile.write(json_object)
 
 def sqlite_db():
-  TBD
+  try:
+    with sqlite3.connect("my.db") as conn:
+      # interact with database
+      print(f"Opened SQLite database with version {sqlite3.sqlite_version} successfully.")
+      pass
+  except sqlite3.OperationalError as e:
+    print("Failed to open database:", e)
 
 def mongodb_db():
-  TBD
+  #myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+  #mydb = myclient["mydatabase"]
+  return
 
 def run():  
   print('http server is starting...') 
 
   logs()
   jsons_db()
+  sqlite_db()
+  mongodb_db()
   
   #ip and port of servr  
   #by default http server port is 80  
