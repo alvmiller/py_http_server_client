@@ -1,0 +1,167 @@
+/*
+python message exchanger
+
+https://www.digitalocean.com/community/tutorials/python-socket-programming-server-client
+https://labex.io/tutorials/python-how-to-send-and-receive-messages-using-python-sockets-398244
+https://www.pubnub.com/blog/python-socket-programming-client-server/
+https://realpython.com/python-sockets/
+https://medium.com/@PubNub/python-socket-programming-client-server-peer-libraries-a61023e98e1f
+https://pandeyshikha075.medium.com/building-a-chat-server-and-client-in-python-with-socket-programming-c76de52cc1d5
+https://docs.python.org/3/howto/sockets.html
+https://www.datacamp.com/tutorial/a-complete-guide-to-socket-programming-in-python
+https://faun.pub/python-basic-client-server-application-a14a84882454
+https://github.com/anishvedant/End-to-End-Encryption
+https://www.geeksforgeeks.org/python/socket-programming-python/
+https://labex.io/tutorials/python-how-to-secure-client-server-communication-in-python-398063
+https://www.rabbitmq.com/tutorials/tutorial-three-python
+https://builtin.com/data-science/python-socket
+https://denizhalil.com/2024/09/29/python-socket-encryption-guide/
+https://dzone.com/articles/socket-programming-in-python-client-server-and-pee
+https://www.linkedin.com/pulse/communicating-python-sockets-using-encryption-halil-i%CC%87brahim-deniz-bs35f
+https://grpc.io/docs/languages/python/basics/
+https://how.dev/answers/socket-programming-in-python
+https://www.tutorialspoint.com/python-program-that-sends-and-receives-message-from-client
+https://modelcontextprotocol.io/docs/concepts/architecture
+https://www.cloudamqp.com/blog/part2-3-rabbitmq-for-beginners_example-and-sample-code-python.html
+https://www.geeksforgeeks.org/python/simple-chat-room-using-python/
+https://github.com/TiagoValdrich/python-socket-chat
+https://www.linkedin.com/pulse/how-build-simple-client-server-chat-application-python-kurkoglu
+https://dev.to/pubnub/building-a-chat-application-using-python-1l4h
+
+https://realpython.com/pytest-python-testing/
+https://docs.pytest.org/en/stable/example/simple.html
+https://semaphore.io/community/tutorials/testing-python-applications-with-pytest
+https://docs.pytest.org/en/stable/
+
+https://docs.docker.com/guides/python/configure-github-actions/
+https://medium.com/@wasdsro/tutorial-building-a-docker-container-via-github-actions-8636bdc931b1
+https://github.com/jacobtomlinson/python-container-action
+https://docs.docker.com/guides/python/configure-github-actions/
+https://docs.github.com/en/actions/tutorials/creating-a-docker-container-action
+
+https://realpython.com/documenting-python-code/
+https://www.geeksforgeeks.org/python/python-docstrings/
+
+https://www.geeksforgeeks.org/python/help-function-in-python/
+https://www.digitalocean.com/community/tutorials/python-help-function
+https://www.codecademy.com/resources/docs/python/built-in-functions/help
+https://www.pythonmorsels.com/understanding-help/
+
+https://docs.docker.com/guides/python/containerize/
+https://medium.com/@srbentley/python-multi-threaded-tcp-server-and-client-in-docker-492a0e3a075
+https://testdriven.io/blog/docker-best-practices/
+https://labex.io/tutorials/docker-how-to-run-a-python-application-in-a-docker-container-411596
+
+https://www.redhat.com/en/blog/simple-http-server
+https://www.digitalocean.com/community/tutorials/python-simplehttpserver-http-server
+https://docs.python.org/2/library/simplehttpserver.html?ref=softhints.com
+https://realpython.com/python-http-server/
+https://pypi.org/project/simple-http-server/
+https://www.junian.net/dev/python-http-server-client/
+https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver
+
+https://www.w3schools.com/python/ref_requests_post.asp
+https://www.geeksforgeeks.org/python/get-post-requests-using-python/
+https://scrapfly.io/blog/posts/how-to-python-requests-post
+https://www.datacamp.com/tutorial/making-http-requests-in-python
+https://codedamn.com/news/python/get-and-post-requests-using-python
+https://scrapeops.io/python-web-scraping-playbook/python-requests-post-requests/
+https://dev.to/ayabouchiha/sending-get-post-put-delete-requests-in-python-45o8
+https://www.digitalocean.com/community/tutorials/python-http-client-request-get-post
+
+https://www.geeksforgeeks.org/python/command-line-arguments-in-python/
+https://www.pythonmorsels.com/accessing-command-line-arguments-python/
+https://www.tutorialspoint.com/python/python_command_line_arguments.htm
+https://medium.com/@evaGachirwa/running-python-script-with-arguments-in-the-command-line-93dfa5f10eff
+https://cs.stanford.edu/people/nick/py/python-main.html
+https://www.digitalocean.com/community/tutorials/python-command-line-arguments
+
+https://bytepawn.com/writing-a-simple-python-async-message-queue-server.html
+https://hevodata.com/learn/python-message-queue/
+https://www.rabbitmq.com/tutorials/tutorial-one-python
+https://docs.newrelic.com/docs/apm/agents/python-agent/supported-features/python-message-queues/
+https://garvitgupta13.medium.com/understanding-message-queue-using-python-rq-3f1c5ae23917
+
+https://www.w3schools.com/python/python_try_except.asp
+https://docs.python.org/3/tutorial/errors.html
+https://stackoverflow.com/questions/40718770/pytest-running-with-another-version-of-python
+
+https://docs.python.org/3/library/http.server.html
+https://docs.python.org/3/library/http.client.html
+
+https://docs.python.org/3/library/logging.html
+https://www.dash0.com/guides/logging-in-python
+https://betterstack.com/community/guides/logging/how-to-start-logging-with-python/
+https://www.geeksforgeeks.org/python/logging-in-python/
+
+https://www.geeksforgeeks.org/python/python-database-tutorial/
+https://www.w3schools.com/python/python_mysql_getstarted.asp
+https://www.freecodecamp.org/news/how-to-read-and-write-data-to-a-sql-database-using-python/
+https://www.geeksforgeeks.org/python/python-sqlite/
+https://docs.python.org/3/library/sqlite3.html
+https://www.freecodecamp.org/news/work-with-sqlite-in-python-handbook/
+https://www.tutorialspoint.com/sqlite/sqlite_python.htm
+https://datacarpentry.github.io/python-ecology-lesson/instructor/09-working-with-sql.html
+https://www.ionos.com/digitalguide/websites/web-development/sqlite3-python/
+
+https://docs.docker.com/guides/python/containerize/
+https://www.docker.com/blog/how-to-dockerize-your-python-applications/
+https://code.visualstudio.com/docs/containers/quickstart-python
+https://medium.com/@mjrod/deploying-a-python-application-to-docker-4478787c2add
+https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/
+https://github.com/dockersamples/helloworld-demo-python
+https://hasura.io/blog/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d
+https://www.geeksforgeeks.org/python/how-to-run-a-python-script-using-docker/
+https://medium.com/@harichselvamc/getting-started-with-docker-building-and-running-your-first-python-application-2304deded192
+
+https://www.w3schools.com/python/ref_requests_get.asp
+
+
+https://www.digitalocean.com/community/tutorials/python-http-client-request-get-post
+https://medium.com/@stephen.biston/write-an-http-server-from-the-ground-up-in-9-minutes-with-python-1fdb9800a26a
+https://www.geeksforgeeks.org/python/get-post-requests-using-python/
+https://developer.vonage.com/en/blog/3-ways-to-make-http-calls-with-python-requests-beginner-to-advanced
+https://www.xingyulei.com/post/py-http-server/
+https://www.codementor.io/@joaojonesventura/building-a-basic-http-server-from-scratch-in-python-1cedkg0842
+https://anshu-dev.medium.com/creating-a-python-web-server-from-basic-to-advanced-449fcb38e93b
+https://www.scrapingbee.com/blog/best-python-http-clients/
+https://codesarray.com/view/HTTP-Requests-and-Responses-in-Python-with-httpclient
+
+*/
+
+/*
+pip install pymysql
+sudo apt install python-pip
+sudo apt install python3-pip
+pip2 install pymysql
+pip3 install pymysql
+python2
+python3
+sudo apt install python-pip
+pip install pytest
+pip install requests
+sudo apt install python-is-python3
+python -m http.server
+localhost:8000 or 127.0.0.1:8000
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)
+
+python2 -m SimpleHTTPServer 8080
+python3 -m http.server 8888
+
+- sudo python2 server/server.py
+- python2 client/client.py 127.0.0.1 3
+    //GET dummy.html
+
+pytest -q test/test_func.py
+
+python docs/docs.py
+*/
+
+/*
+pytest server/server_test.py
+python server/server_docs.py
+
+sudo python server/server.py
+python client/client.py 127.0.0.1:80 3
+python client/client.py 127.0.0.1:80 5
+*/
