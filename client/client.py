@@ -6,10 +6,16 @@ import time
 import socket
 import requests
   
-#get http server ip  
-http_server = sys.argv[1]  
-sleep_var = sys.argv[2]
-  
+#get http server ip 
+http_server = ""
+sleep_var = ""
+cmd_n = len(sys.argv)
+if cmd_n == 3:
+  http_server = sys.argv[1]  
+  sleep_var = sys.argv[2]
+else:
+  http_server = "127.0.0.1:8080"
+  sleep_var = 2
 print("http_server: ", http_server) 
 print("sleep_var: ", sleep_var) 
 
@@ -46,6 +52,6 @@ while 1:
     print("An error occurred:", e)
   finally:
     count = count + 1
-    if count == 5:
+    if count == 3:
       break
     time.sleep(float(sleep_var))  
