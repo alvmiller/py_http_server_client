@@ -15,10 +15,10 @@ def get_server_address():
   return '127.0.0.1'
 
 def get_server_port():
-  return 80
+  return 8080
 
 def get_rootdir():
-  return 'server/html/'
+  return 'html/'
   
 class HTTPRequestHandler(http.server.BaseHTTPRequestHandler):
   #handle GET command  
@@ -93,9 +93,11 @@ def run():
   mongodb_db()
   
   #ip and port of servr  
-  #by default http server port is 80  
+  #by default http server port is 8080  
   server_address = (get_server_address(), get_server_port())  
   httpd = http.server.HTTPServer(server_address, HTTPRequestHandler)  
+  print('get_server_address: ', get_server_address())  
+  print('get_server_port:', get_server_port())  
   print('http server is running...')  
   try:
     httpd.serve_forever()
